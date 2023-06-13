@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="comparativeanalysis.MainPage">
+
+
+    <StackLayout BackgroundColor="LightGray" Padding="20" Spacing="10">
+        <Label Text="Calculator App" FontSize="30" TextColor="Black" FontAttributes="Bold"/>
+        <Frame BackgroundColor="White" CornerRadius="20">
+            <Label x:Name="resultLabel" Text="" FontSize="24" Margin="10"/>
+        </Frame>
+        <Grid RowSpacing="10" ColumnSpacing="10">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="2*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="2*"/>
+            </Grid.ColumnDefinitions>
+
+            <Button Text="7" Clicked="HandleButtonClicked" Grid.Row="1" Grid.Column="0" BackgroundColor="White" BorderRadius="10" FontSize="20" FontAttributes="Bold" />
+            <Button Text="8" Clicked="HandleButtonClicked" Grid.Row="1" Grid.Column="1" BackgroundColor="White" BorderRadius="10" FontSize="20" FontAttributes="Bold" />
+            <Button Text="9" Clicked="HandleButtonClicked" Grid.Row="1" Grid.Column="2" BackgroundColor="White" BorderRadius="10" FontSize="20" FontAttributes="Bold" />
+            <Button Text="/" Clicked="HandleButtonClicked" Grid.Row="1" Grid.Column="3" BackgroundColor="White" BorderRadius="10" FontSize="20" FontAttributes="Bold" />
+            <Button Text="4" Clicked="HandleButtonClicked" Grid.Row="2" Grid.Column="0" BackgroundColor="White" BorderRadius="10" FontSize="20" FontAttributes="Bold" />
+            <Button Text="5" Clicked="HandleButtonClicked" Grid.Row="2" Grid.Column="1" BackgroundColor="White" BorderRadius="10" FontSize="20" FontAttributes="Bold" />
+            <Button Text="6" Clicked="HandleButtonClicked" Grid.Row="2" Grid.Column="2" BackgroundColor="White" BorderRadius="10" FontSize="20" FontAttributes="Bold" />
+            <Button Text="*" Clicked="HandleButtonClicked" Grid.Row="2" Grid.Column="3" BackgroundColor="White" BorderRadius="10" FontSize="20" FontAttributes="Bold" />
+            <Button Text="1" Clicked="HandleButtonClicked" Grid.Row="3" Grid.Column="0" BackgroundColor="White" BorderRadius="10" FontSize="20" FontAttributes="Bold" />
+            <Button Text="2" Clicked="HandleButtonClicked" Grid.Row="3" Grid.Column="1" BackgroundColor="White" BorderRadius="10" FontSize="20" FontAttributes="Bold" />
+            <Button Text="3" Clicked="HandleButtonClicked" Grid.Row="3" Grid.Column="2" BackgroundColor="White" BorderRadius="10" FontSize="20" FontAttributes="Bold" />
+            <Button Text="-" Clicked="HandleButtonClicked" Grid.Row="3" Grid.Column="3" BackgroundColor="White" BorderRadius="10" FontSize="20" FontAttributes="Bold" />
+            <Button Text="0" Clicked="HandleButtonClicked" Grid.Row="4" Grid.Column="0" BackgroundColor="White" BorderRadius="10" FontSize="20" FontAttributes="Bold" />
+            <Button Text="." Clicked="HandleButtonClicked" Grid.Row="4" Grid.Column="1" BackgroundColor="White" BorderRadius="10" FontSize="20" FontAttributes="Bold" />
+            <Button Text="=" Clicked="HandleButtonClicked" Grid.Row="4" Grid.Column="2" BackgroundColor="White" BorderRadius="10" FontSize="20" FontAttributes="Bold" />
+            <Button Text="+" Clicked="HandleButtonClicked" Grid.Row="4" Grid.Column="3" BackgroundColor="White" BorderRadius="10" FontSize="20" FontAttributes="Bold" />
+            <Button Text="C" Clicked="HandleButtonClicked" Grid.Row="5" Grid.Column="3" BackgroundColor="White" BorderRadius="10" FontSize="20" FontAttributes="Bold" />
+
+        </Grid>
+    </StackLayout>
+</ContentPage>
+
+<!--<StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Welcome to Xamarin.Forms!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Label Text="Start developing now" FontSize="Title" Padding="30,10,30,10"/>
+        <Label Text="Make changes to your XAML file and save to see your UI update in the running app with XAML Hot Reload. Give it a try!" FontSize="16" Padding="30,0,30,0"/>
+        <Label FontSize="16" Padding="30,24,30,0">
+            <Label.FormattedText>
+                <FormattedString>
+                    <FormattedString.Spans>
+                        <Span Text="Learn more at "/>
+                        <Span Text="https://aka.ms/xamarin-quickstart" FontAttributes="Bold"/>
+                    </FormattedString.Spans>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+    </StackLayout>--> 
+
+

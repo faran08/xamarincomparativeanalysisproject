@@ -1,0 +1,14 @@
+/Users/faranmushtaq/Documents/Projects/comparativeanalysis/comparativeanalysis/comparativeanalysis/bin/Release/netstandard2.0/comparativeanalysis.deps.json
+/Users/faranmushtaq/Documents/Projects/comparativeanalysis/comparativeanalysis/comparativeanalysis/bin/Release/netstandard2.0/comparativeanalysis.dll
+/Users/faranmushtaq/Documents/Projects/comparativeanalysis/comparativeanalysis/comparativeanalysis/bin/Release/netstandard2.0/ref/comparativeanalysis.dll
+/Users/faranmushtaq/Documents/Projects/comparativeanalysis/comparativeanalysis/comparativeanalysis/bin/Release/netstandard2.0/comparativeanalysis.pdb
+/Users/faranmushtaq/Documents/Projects/comparativeanalysis/comparativeanalysis/comparativeanalysis/obj/Release/netstandard2.0/comparativeanalysis.csproj.AssemblyReference.cache
+/Users/faranmushtaq/Documents/Projects/comparativeanalysis/comparativeanalysis/comparativeanalysis/obj/Release/netstandard2.0/App.xaml.g.cs
+/Users/faranmushtaq/Documents/Projects/comparativeanalysis/comparativeanalysis/comparativeanalysis/obj/Release/netstandard2.0/MainPage.xaml.g.cs
+/Users/faranmushtaq/Documents/Projects/comparativeanalysis/comparativeanalysis/comparativeanalysis/obj/Release/netstandard2.0/comparativeanalysis.AssemblyInfoInputs.cache
+/Users/faranmushtaq/Documents/Projects/comparativeanalysis/comparativeanalysis/comparativeanalysis/obj/Release/netstandard2.0/comparativeanalysis.AssemblyInfo.cs
+/Users/faranmushtaq/Documents/Projects/comparativeanalysis/comparativeanalysis/comparativeanalysis/obj/Release/netstandard2.0/comparativeanalysis.csproj.CoreCompileInputs.cache
+/Users/faranmushtaq/Documents/Projects/comparativeanalysis/comparativeanalysis/comparativeanalysis/obj/Release/netstandard2.0/XamlC.stamp
+/Users/faranmushtaq/Documents/Projects/comparativeanalysis/comparativeanalysis/comparativeanalysis/obj/Release/netstandard2.0/comparativeanalysis.dll
+/Users/faranmushtaq/Documents/Projects/comparativeanalysis/comparativeanalysis/comparativeanalysis/obj/Release/netstandard2.0/ref/comparativeanalysis.dll
+/Users/faranmushtaq/Documents/Projects/comparativeanalysis/comparativeanalysis/comparativeanalysis/obj/Release/netstandard2.0/comparativeanalysis.pdb
